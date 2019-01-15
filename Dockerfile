@@ -8,3 +8,4 @@ RUN curl -sL https://github.com/gruntwork-io/terragrunt/releases/download/v$TERR
 -o /bin/terragrunt && chmod +x /bin/terragrunt
 
 ENTRYPOINT ["/bin/terragrunt"]
+CMD ["help"]
